@@ -1,0 +1,44 @@
+backend/.env
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+backend/venv/
+
+# Environment variables
+.env
+*.env
+
+# Node
+node_modules/
+dist/
+
+# React
+frontend/.env
+frontend/.env.local
+
+# Spark
+spark/bronze/checkpoints/
+spark/bronze/payments/
+spark/silver/payments/
+
+# Data
+data/raw/*.csv
+data/processed/*.csv
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Generated Spark output
+spark/gold/payment_summary/
+
+# Generated payment data
+src/ingestion/data/raw/
